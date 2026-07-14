@@ -1,0 +1,21 @@
+html, body { margin: 0; min-height: 100%; background: #0d0e12; color: #ece7e1; font-family: -apple-system, system-ui, sans-serif; }
+#app { max-width: 480px; margin: 0 auto; padding: 24px 16px 60px; }
+.eyebrow { text-transform: uppercase; letter-spacing: 2px; font-size: 12px; color: #e08a3e; font-weight: 700; }
+h1 { font-size: 30px; margin: 6px 0 2px; }
+.sub { color: #9a9199; font-size: 14px; margin-bottom: 4px; }
+.stat-row { display: flex; gap: 16px; margin: 14px 0 20px; }
+.stat { background: #16151b; border-radius: 10px; padding: 10px 16px; text-align: center; flex: 1; }
+.stat .num { font-size: 22px; font-weight: 800; }
+.stat .label { font-size: 11px; color: #9a9199; text-transform: uppercase; letter-spacing: 1px; }
+.tier-badge { display: inline-block; font-size: 12px; color: #e08a3e; border: 1px solid #e08a3e; border-radius: 20px; padding: 3px 12px; margin-bottom: 14px; }
+
+.card { background: #16151b; border: 1px solid #2a2831; border-radius: 14px; padding: 22px; }
+.question { font-size: 19px; font-weight: 700; margin-bottom: 18px; line-height: 1.4; }
+.choice { display: block; width: 100%; text-align: left; background: #1d1c24; border: 1px solid #2a2831; color: #ece7e1;
+          border-radius: 10px; padding: 14px 16px; margin-bottom: 10px; font-size: 15px; cursor: pointer; }
+.choice.correct { background: #4a9d6e; border-color: #4a9d6e; }
+.choice.wrong { background: #b8455f; border-color: #b8455f; }
+.choice:disabled { cursor: default; }
+
+.btn { background: #e08a3e; color: #0d0e12; border: none; border-radius: 10px; padding: 12px 24px; font-weight: 700; font-size: 15px; cursor: pointer; margin-top: 14px; }
+.result h2 { margin-top: 0; }
